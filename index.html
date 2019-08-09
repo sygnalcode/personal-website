@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/design.css" />
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="css/fontawesome/css/brands.min.css">
-    <link rel="stylesheet" href="css/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="css/fontawesome/css/solid.min.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700|Titillium+Web:200,400&display=swap"
       rel="stylesheet"
@@ -29,90 +29,301 @@
     <script defer src="js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>
-      Jonathan Kemper
-    </h1>
-    <a href="#kontakt">Kontakt</a><a href="#biografie">Biografie</a>
-    <img
-      class="img-fluid"
-      src="media/jonathan-kemper.jpg"
-      alt="Portraitfoto von Jonathan Kemper"
-    />
-    <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua.
-    </p>
-    <h2>Web Development</h2>
-    <ul>
-      <li>JavaScript</li>
-      <li>React.js</li>
-      <li>Vue.js</li>
-      <li>Node.js</li>
-      <li>HTML5</li>
-      <li>SASS</li>
-      <li>CSS3</li>
-      <li>Bootstrap</li>
-      <li>Git</li>
-      <li>Scrum</li>
-    </ul>
-    <h2>UX Design</h2>
-    <ul>
-      <li>Photoshop</li>
-      <li>Illustrator</li>
-      <li>InVision</li>
-      <li>Sketch</li>
-      <li>Zeplin</li>
-    </ul>
-    <h2>Telefon</h2>
-    <p>+49 40 987654321</p>
-    <h2>E-Mail</h2>
-    <p>jk@kemper.de</p>
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center mt-4">
+              Jonathan Kemper
+            </h1>
+            <hr />
+            <!-- </div> -->
+            <!-- <div class="col-12"> -->
+            <div class="col-6 bg-dark">
+              <h4>
+                <span class="badge badge-primary"
+                  ><a href="#kontakt">Kontakt</a></span
+                >
+              </h4>
+            </div>
 
+            <div class="col-6 bg-primary">
+              <h4>
+                <span class="badge badge-primary"
+                  ><a href="#biografie">Biografie</a></span
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+      </header>
 
-    <ul>
-      <li><i class="fab fa-github"></i>GibHub</li>
-      <li><i class="fab fa-codepen"></i>CodePen</li>
-      <li><i class="fab fa-linkedin"></i>LinkedIn</li>
-    </ul>
+      <main>
+        <div class="row">
+          <div class="col-12">
+            <figure class="figure">
+              <img
+                class="figure-img img-fluid rounded"
+                src="images/jonathan-kemper.jpg"
+                alt="Portraitfoto von Jonathan Kemper"
+              />
+              <figcaption class="figure-caption">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat.
+              </figcaption>
+            </figure>
+          </div>
 
+          <div class="col-12">
+            <h2>Web Development</h2>
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">JavaScript</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">React.js</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">HTML5</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">CSS3</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">Bootstrap</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">Git</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-success">Scrum</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-success">Vue.js</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-success">SASS</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-success">Node.js</span>
+              </li>
+            </ul>
+            <h2>UX Design</h2>
+            <ul class="list-unstyled">
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">InVision</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-danger">Sketch</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-success">Photoshop</span>
+              </li>
+              <li class="list-inline-item h5">
+                <span class="badge badge-success">Illustrator</span>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-    <h2>Lorem ipsum</h2>
-    <p>
-      At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-      gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua.
-    </p>
-    <h2>Meine Stationen</h2>
-    <table>
-      <tr>
-        <td>2019</td>
-        <td>Lorem ipsum dolor, Hamburg</td>
-      </tr>
-      <tr>
-        <td>2018</td>
-        <td>Venura putla, Köln</td>
-      </tr>
-      <tr>
-        <td>2016</td>
-        <td>Verilium dolor insit, Vancouver (CA)</td>
-      </tr>
-      <tr>
-        <td>2013</td>
-        <td>Sed diam voluptua, Hamburg</td>
-      </tr>
-      <tr>
-        <td>2009</td>
-        <td>Magna aliquyam erat, München</td>
-      </tr>
-    </table>
+        <div class="row" id="kontakt">
+          <div class="col-12">
+            <h2>Get in touch</h2>
+          </div>
+          <div class="col-6">
+            <div class="card bg-light mb-3">
+              <!-- <div class="card-header">Telefon</div> -->
+              <div class="card-body">
+                <h3 class="card-title text-center">Telefon</h3>
+                <p class="card-text text-center">
+                  <a href="tel:+491799876543">0179 987 65 43</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card bg-light mb-3">
+              <!--<div class="card-header">Telefon</div>-->
+              <div class="card-body">
+                <h3 class="card-title text-center">E-Mail</h3>
+                <p class="card-text text-center">
+                  <a href="mailto:jk@kemper.de">jk@kemper.de</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
-    &copy; Copyright 2019 Jonathan Kemper
+        <div class="row py-4 mb-2 d-md-none">
+          <div class="col-12">
+            <div class="text-center textsocial">
+              <a href="https://github.com/" target="_blank">
+                <i class="fab fa-github icongross mt-5 mb-2"></i
+                ><span class="textsocial"><br />GibHub</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="text-center">
+              <a href="https://codepen.io" target="_blank">
+                <i class="fab fa-codepen icongross mt-5 mb-2"></i><br /><span class="textsocial"
+                  >CodePen</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="text-center">
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin icongross mt-5 mb-2"></i><br /><span class="textsocial"
+                  >LinkedIn</span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-4 mb-2 d-none d-md-block">
+          <div class="col-4">
+            <div class="text-center">
+              <a href="https://github.com/" target="_blank">
+                <i class="fab fa-github"></i><br />GibHub
+              </a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="text-center">
+              <a href="https://codepen.io" target="_blank">
+                <i class="fab fa-codepen"></i><br />CodePen
+              </a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="text-center">
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i><br />LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-12">
+            <h2>Über mich</h2>
+            <p>
+              At <a href="#" class="textnormal">vero eos</a> et accusam et
+              <mark class="textmarker">justo duo dolores</mark> et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus
+              <mark class="textmarker">est Lorem ipsum dolor</mark> sit amet.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              <mark class="textmarker">diam nonumy eirmod tempor</mark> invidunt
+              ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            </p>
+          </div>
+
+          <div class="col-12" id="biografie">
+            <h2>Biografie</h2>
+            <table class=" table-sm d-md-none">
+              <tr>
+                <td>
+                  <h3>
+                    seit 2018
+                  </h3>
+                  Lorem ipsum verum in vendi polu <em>(Hamburg)</em>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>
+                    2016 – 2018
+                  </h3>
+                  Venura in lorem verum in vendi polu verum in vendi polu ipsum
+                  putla <em>(Köln)</em>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>
+                    2015
+                  </h3>
+                  Verilium dolor insit <em>(Vancouver/CA)</em>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>
+                    2013 – 2014
+                  </h3>
+                  Sed diam verum in vendi polu verum in vendi polu verum in
+                  vendi polu <em>(Hamburg)</em>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>
+                    2009
+                  </h3>
+                  Magna aliquyam erat <em>(München)</em>
+                </td>
+              </tr>
+            </table>
+
+            <table class="table table-sm d-none d-md-block">
+              <tr>
+                <td>2019</td>
+                <td>Lorem ipsum dolor, Hamburg</td>
+              </tr>
+              <tr>
+                <td>2018</td>
+                <td>Venura putla, Köln</td>
+              </tr>
+              <tr>
+                <td>2016</td>
+                <td>Verilium dolor insit, Vancouver (CA)</td>
+              </tr>
+              <tr>
+                <td>2013</td>
+                <td>Sed diam voluptua, Hamburg</td>
+              </tr>
+              <tr>
+                <td>2009</td>
+                <td>Magna aliquyam erat, München</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-unstyled list-inline pt-4">
+            <li class="list-inline-item col-6">
+              <div class="text-right">
+                <a href="impressum.html" style="color: white;">Impressum</a>
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <div class="text-left">
+                <a href="datenschutz.html" style="color: white;">Datenschutz</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <section class="text-center text-muted pb-4">
+            &copy; Copyright 2019 Jonathan Kemper
+          </section>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
