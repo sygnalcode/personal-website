@@ -37,23 +37,17 @@
               Jonathan Kemper
             </h1>
             <hr />
-            <!-- </div> -->
-            <!-- <div class="col-12"> -->
-            <div class="col-6 bg-dark">
-              <h4>
-                <span class="badge badge-primary"
-                  ><a href="#kontakt">Kontakt</a></span
-                >
-              </h4>
-            </div>
 
-            <div class="col-6 bg-primary">
-              <h4>
-                <span class="badge badge-primary"
-                  ><a href="#biografie">Biografie</a></span
-                >
-              </h4>
-            </div>
+            <nav class="navbar navbar-expand navbar-light mb-4">
+              <ul class="navbar-nav navbar-center">
+                <li class="nav-item">
+                  <a href="#kontakt" class="nav-link navfarben">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#biografie" class="nav-link navfarben">Biografie</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
@@ -79,19 +73,37 @@
             <h2>Web Development</h2>
             <ul class="list-unstyled list-inline">
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">JavaScript</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/JavaScript"
+                  target="_blank"
+                  ><span class="badge badge-danger">JavaScript</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">React.js</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/React_(JavaScript_library)"
+                  target="_blank"
+                  ><span class="badge badge-danger">React.js</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">HTML5</span>
+                <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"
+                  ><span class="badge badge-danger">HTML5</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">CSS3</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3"
+                  target="_blank"
+                  ><span class="badge badge-danger">CSS3</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">Bootstrap</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+                  target="_blank"
+                  ><span class="badge badge-danger">Bootstrap</span></a
+                >
               </li>
               <li class="list-inline-item h5">
                 <span class="badge badge-danger">Git</span>
@@ -127,39 +139,71 @@
           </div>
         </div>
 
-        <div class="row" id="kontakt">
-          <div class="col-12">
-            <h2>Get in touch</h2>
-          </div>
-          <div class="col-6">
-            <div class="card bg-light mb-3">
-              <!-- <div class="card-header">Telefon</div> -->
-              <div class="card-body">
-                <h3 class="card-title text-center">Telefon</h3>
-                <p class="card-text text-center">
-                  <a href="tel:+491799876543">0179 987 65 43</a>
-                </p>
+        <div id="kontakt">
+          <!-- klein -->
+          <div class="row d-md-none">
+            <div class="col-12 mt-4">
+              <div class="card bg-light mb-3">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Telefon</h3>
+                  <p class="card-text text-center">
+                    <a href="tel:+491799876543" style="font-size: 18px;"
+                      >0179 987 65 43</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-1">
+              <div class="card bg-light mb-3">
+                <div class="card-body">
+                  <h3 class="card-title text-center">E-Mail</h3>
+                  <p class="card-text text-center">
+                    <a href="mailto:jk@kemper.de" style="font-size: 18px;"
+                      >jk@kemper.de</a
+                    >
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="card bg-light mb-3">
-              <!--<div class="card-header">Telefon</div>-->
-              <div class="card-body">
-                <h3 class="card-title text-center">E-Mail</h3>
-                <p class="card-text text-center">
-                  <a href="mailto:jk@kemper.de">jk@kemper.de</a>
-                </p>
+          <!-- GROSS -->
+          <div class="row d-none d-md-block">
+            <div class="card-group mt-4">
+              <div class="col-md-6">
+                <div class="card bg-light mb-3">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Telefon</h3>
+                    <p class="card-text text-center">
+                      <a href="tel:+491799876543" style="font-size: 20px;"
+                        >0179 987 65 43</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card bg-light mb-3">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">E-Mail</h3>
+                    <p class="card-text text-center">
+                      <a href="mailto:jk@kemper.de" style="font-size: 20px;"
+                        >jk@kemper.de</a
+                      >
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row py-4 mb-2 d-md-none">
+        <!-- klein -->
+        <div class="row mt-2 d-md-none">
           <div class="col-12">
             <div class="text-center textsocial">
               <a href="https://github.com/" target="_blank">
-                <i class="fab fa-github icongross mt-5 mb-2"></i
+                <i class="fab fa-github icongross mt-4 mb-2"></i
                 ><span class="textsocial"><br />GibHub</span>
               </a>
             </div>
@@ -168,7 +212,8 @@
           <div class="col-12">
             <div class="text-center">
               <a href="https://codepen.io" target="_blank">
-                <i class="fab fa-codepen icongross mt-5 mb-2"></i><br /><span class="textsocial"
+                <i class="fab fa-codepen icongross mt-5 mb-2"></i><br /><span
+                  class="textsocial"
                   >CodePen</span
                 >
               </a>
@@ -178,7 +223,8 @@
           <div class="col-12">
             <div class="text-center">
               <a href="https://www.linkedin.com" target="_blank">
-                <i class="fab fa-linkedin icongross mt-5 mb-2"></i><br /><span class="textsocial"
+                <i class="fab fa-linkedin icongross mt-5 mb-2"></i><br /><span
+                  class="textsocial"
                   >LinkedIn</span
                 >
               </a>
@@ -186,6 +232,7 @@
           </div>
         </div>
 
+        <!-- GROSS -->
         <div class="row py-4 mb-2 d-none d-md-block">
           <div class="col-4">
             <div class="text-center">
@@ -212,6 +259,7 @@
           </div>
         </div>
 
+        <!-- klein -->
         <div class="row mb-5">
           <div class="col-12">
             <h2>Über mich</h2>
@@ -300,30 +348,60 @@
           </div>
         </div>
       </main>
-    </div>
 
-    <footer class="container-fluid bg-dark">
-      <div class="row">
-        <div class="col-12">
-          <ul class="list-unstyled list-inline pt-4">
-            <li class="list-inline-item col-6">
-              <div class="text-right">
-                <a href="impressum.html" style="color: white;">Impressum</a>
-              </div>
-            </li>
-            <li class="list-inline-item">
-              <div class="text-left">
-                <a href="datenschutz.html" style="color: white;">Datenschutz</a>
-              </div>
-            </li>
-          </ul>
+      <footer>
+        <!-- klein -->
+        <div class="row d-md-none">
+          <div class="col-12">
+            <ul class="list-unstyled list-inline pt-4">
+              <li class="list-inline-item col-6">
+                <div class="text-right">
+                  <a href="impressum.html" class="linkimfooter">Impressum</a>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="text-left">
+                  <a href="datenschutz.html" class="linkimfooter"
+                    >Datenschutz</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <section
+              class="text-center text-muted mb-4 mt-1"
+              style="font-size: 15px;"
+            >
+              &copy; Copyright 2019 Jonathan Kemper
+            </section>
+          </div>
         </div>
-        <div class="col-12">
-          <section class="text-center text-muted pb-4">
-            &copy; Copyright 2019 Jonathan Kemper
-          </section>
+        <!-- GROSS -->
+        <div class="row d-none d-md-block">
+          <div class="col-md-12">
+            <div class="float-left mb-4">
+              <section class="text-muted" style="font-size: 15px;">
+                &copy; Copyright 2019 Jonathan Kemper
+              </section>
+            </div>
+
+            <div class="float-right mb-4">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="impressum.html" class="linkimfooter">Impressum</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="datenschutz.html" class="linkimfooter"
+                    >Datenschutz</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
+        <!--  -->
+      </footer>
+    </div>
   </body>
 </html>
