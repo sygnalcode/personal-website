@@ -32,13 +32,15 @@
     <div class="container">
       <header>
         <div class="row">
-          <div class="col-12">
-            <h1 class="text-center mt-4">
+          <div class="col-12 col-md-9">
+            <h1 class="text-center text-md-left mt-4 mt-md-5">
               Jonathan Kemper
             </h1>
-            <hr />
+            <hr class="d-md-none" />
+          </div>
 
-            <nav class="navbar navbar-expand navbar-light mb-4">
+          <div class="col-12 col-md-3 mt-md-5 mb-4 mb-md-0 pt-md-4">
+            <nav class="navbar navbar-expand navbar-light">
               <ul class="navbar-nav navbar-center">
                 <li class="nav-item">
                   <a href="#kontakt" class="nav-link navfarben">Kontakt</a>
@@ -49,19 +51,23 @@
               </ul>
             </nav>
           </div>
+
+          <div class="col-12 d-none d-md-block mb-4">
+            <hr style="width: 100%" />
+          </div>
         </div>
       </header>
 
       <main>
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 col-md-6">
             <figure class="figure">
               <img
                 class="figure-img img-fluid rounded"
-                src="images/jonathan-kemper.jpg"
+                src="images/jonathan-kemper-v03.jpg"
                 alt="Portraitfoto von Jonathan Kemper"
               />
-              <figcaption class="figure-caption">
+              <figcaption class="figure-caption text-justify">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat.
@@ -69,7 +75,7 @@
             </figure>
           </div>
 
-          <div class="col-12">
+          <div class="col-12 col-md-6">
             <h2>Web Development</h2>
             <ul class="list-unstyled list-inline">
               <li class="list-inline-item h5">
@@ -106,34 +112,64 @@
                 >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">Git</span>
+                <a href="https://en.wikipedia.org/wiki/Git" target="_blank"
+                  ><span class="badge badge-danger">Git</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-success">Scrum</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Scrum_(software_development)"
+                  target="_blank"
+                  ><span class="badge badge-success">Scrum</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-success">Vue.js</span>
+                <a href="https://en.wikipedia.org/wiki/Vue.js" target="_blank"
+                  ><span class="badge badge-success">Vue.js</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-success">SASS</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)"
+                  target="_blank"
+                  ><span class="badge badge-success">SASS</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-success">Node.js</span>
+                <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank"
+                  ><span class="badge badge-success">Node.js</span></a
+                >
               </li>
             </ul>
             <h2>UX Design</h2>
             <ul class="list-unstyled">
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">InVision</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Design_Prototyping_Tool"
+                  target="_blank"
+                  ><span class="badge badge-danger">InVision</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-danger">Sketch</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Sketch_(software)"
+                  target="_blank"
+                  ><span class="badge badge-danger">Sketch</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-success">Photoshop</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Adobe_Photoshop"
+                  target="_blank"
+                  ><span class="badge badge-success">Photoshop</span></a
+                >
               </li>
               <li class="list-inline-item h5">
-                <span class="badge badge-success">Illustrator</span>
+                <a
+                  href="https://en.wikipedia.org/wiki/Illustrator"
+                  target="_blank"
+                  ><span class="badge badge-success">Illustrator</span></a
+                >
               </li>
             </ul>
           </div>
@@ -147,7 +183,7 @@
                 <div class="card-body">
                   <h3 class="card-title text-center">Telefon</h3>
                   <p class="card-text text-center">
-                    <a href="tel:+491799876543" style="font-size: 18px;"
+                    <a href="tel:+491799876543" class="linkkarte"
                       >0179 987 65 43</a
                     >
                   </p>
@@ -159,7 +195,7 @@
                 <div class="card-body">
                   <h3 class="card-title text-center">E-Mail</h3>
                   <p class="card-text text-center">
-                    <a href="mailto:jk@kemper.de" style="font-size: 18px;"
+                    <a href="mailto:jk@kemper.de" class="linkkarte"
                       >jk@kemper.de</a
                     >
                   </p>
@@ -175,8 +211,7 @@
                   <div class="card-body">
                     <h3 class="card-title text-center">Telefon</h3>
                     <p class="card-text text-center">
-                      <a href="tel:+491799876543" style="font-size: 20px;"
-                        >0179 987 65 43</a
+                      <a href="tel:+491799876543" class="linkkarte">0179 987 65 43</a
                       >
                     </p>
                   </div>
@@ -187,8 +222,7 @@
                   <div class="card-body">
                     <h3 class="card-title text-center">E-Mail</h3>
                     <p class="card-text text-center">
-                      <a href="mailto:jk@kemper.de" style="font-size: 20px;"
-                        >jk@kemper.de</a
+                      <a href="mailto:jk@kemper.de" class="linkkarte">jk@kemper.de</a
                       >
                     </p>
                   </div>
@@ -198,9 +232,8 @@
           </div>
         </div>
 
-        <!-- klein -->
-        <div class="row mt-2 d-md-none">
-          <div class="col-12">
+        <div class="row mt-2">
+          <div class="col-12 col-md-4 mb-md-4">
             <div class="text-center textsocial">
               <a href="https://github.com/" target="_blank">
                 <i class="fab fa-github icongross mt-4 mb-2"></i
@@ -209,7 +242,7 @@
             </div>
           </div>
 
-          <div class="col-12">
+          <div class="col-12 col-md-4 mb-md-4">
             <div class="text-center">
               <a href="https://codepen.io" target="_blank">
                 <i class="fab fa-codepen icongross mt-5 mb-2"></i><br /><span
@@ -220,7 +253,7 @@
             </div>
           </div>
 
-          <div class="col-12">
+          <div class="col-12 col-md-4 mb-md-4">
             <div class="text-center">
               <a href="https://www.linkedin.com" target="_blank">
                 <i class="fab fa-linkedin icongross mt-5 mb-2"></i><br /><span
@@ -232,72 +265,48 @@
           </div>
         </div>
 
-        <!-- GROSS -->
-        <div class="row py-4 mb-2 d-none d-md-block">
-          <div class="col-4">
-            <div class="text-center">
-              <a href="https://github.com/" target="_blank">
-                <i class="fab fa-github"></i><br />GibHub
-              </a>
-            </div>
-          </div>
-
-          <div class="col-4">
-            <div class="text-center">
-              <a href="https://codepen.io" target="_blank">
-                <i class="fab fa-codepen"></i><br />CodePen
-              </a>
-            </div>
-          </div>
-
-          <div class="col-4">
-            <div class="text-center">
-              <a href="https://www.linkedin.com" target="_blank">
-                <i class="fab fa-linkedin"></i><br />LinkedIn
-              </a>
-            </div>
-          </div>
-        </div>
-
         <!-- klein -->
         <div class="row mb-5">
-          <div class="col-12">
+          <div class="col-12 col-md-6">
             <h2>Über mich</h2>
-            <p>
-              At <a href="#" class="textnormal">vero eos</a> et accusam et
+            <p class="text-justify">
+              At <a href="https://www.google.com" class="textnormal">vero eos</a> et accusam et
               <mark class="textmarker">justo duo dolores</mark> et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus
+              Stet clita kasd guber gren, no sea taki mata sanctus
               <mark class="textmarker">est Lorem ipsum dolor</mark> sit amet.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, conse tetur sadip scing elitr, sed
               <mark class="textmarker">diam nonumy eirmod tempor</mark> invidunt
-              ut labore et dolore magna aliquyam erat, sed diam voluptua.
+              ut labore et dolore magna ali quyam erat, sed diam voluptua.
             </p>
+            <p class="text-justify">
+                Lorem <a href="https://www.google.com" class="textnormal">ipsum dolor sit amet</a>, conse tetur sadip scing elitr, sed eirmod tempor.
+              </p>
           </div>
 
-          <div class="col-12" id="biografie">
+          <div class="col-12 col-md-6" id="biografie">
             <h2>Biografie</h2>
             <table class=" table-sm d-md-none">
               <tr>
-                <td>
+                <td class="text-justify">
                   <h3>
-                    seit 2018
+                    2018
                   </h3>
                   Lorem ipsum verum in vendi polu <em>(Hamburg)</em>
                 </td>
               </tr>
               <tr>
-                <td>
+                <td class="text-justify">
                   <h3>
-                    2016 – 2018
+                    2016
                   </h3>
                   Venura in lorem verum in vendi polu verum in vendi polu ipsum
                   putla <em>(Köln)</em>
                 </td>
               </tr>
               <tr>
-                <td>
+                <td class="text-justify">
                   <h3>
                     2015
                   </h3>
@@ -305,16 +314,16 @@
                 </td>
               </tr>
               <tr>
-                <td>
+                <td class="text-justify">
                   <h3>
-                    2013 – 2014
+                    2013
                   </h3>
                   Sed diam verum in vendi polu verum in vendi polu verum in
                   vendi polu <em>(Hamburg)</em>
                 </td>
               </tr>
               <tr>
-                <td>
+                <td class="text-justify">
                   <h3>
                     2009
                   </h3>
@@ -323,26 +332,28 @@
               </tr>
             </table>
 
-            <table class="table table-sm d-none d-md-block">
+            <table class="table d-none d-md-block">
               <tr>
-                <td>2019</td>
-                <td>Lorem ipsum dolor, Hamburg</td>
+                <td style="font-weight: 700;">2018</td>
+                <td>Lorem ipsum verum in vendi polu <em>(Hamburg)</em></td>
               </tr>
               <tr>
-                <td>2018</td>
-                <td>Venura putla, Köln</td>
+                <td style="font-weight: 700;">2016</td>
+                <td>Venura in lorem verum in vendi polu verum in vendi polu ipsum
+                    putla <em>(Köln)</em></td>
               </tr>
               <tr>
-                <td>2016</td>
-                <td>Verilium dolor insit, Vancouver (CA)</td>
+                <td style="font-weight: 700;">2015</td>
+                <td>Verilium dolor insit <em>(Vancouver/CA)</td>
               </tr>
               <tr>
-                <td>2013</td>
-                <td>Sed diam voluptua, Hamburg</td>
+                <td style="font-weight: 700;">2013</td>
+                <td>Sed diam verum in vendi polu verum in vendi polu verum in
+                    vendi polu <em>(Hamburg)</td>
               </tr>
               <tr>
-                <td>2009</td>
-                <td>Magna aliquyam erat, München</td>
+                <td style="font-weight: 700;">2009</td>
+                <td>Magna aliquyam erat <em>(München)</td>
               </tr>
             </table>
           </div>
@@ -379,7 +390,11 @@
         </div>
         <!-- GROSS -->
         <div class="row d-none d-md-block">
+            <div class="col-12 d-none d-md-block mb-4">
+                <hr style="width: 100%" />
+              </div>
           <div class="col-md-12">
+            
             <div class="float-left mb-4">
               <section class="text-muted" style="font-size: 15px;">
                 &copy; Copyright 2019 Jonathan Kemper
