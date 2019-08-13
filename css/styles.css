@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 80vw;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.picture {
+  width: 250px;
+  border-radius: 7px;
+}
+.picture--portrait {
+  display: block;
+  margin: 0 auto;
+}
+.picture--social {
+  width: 150px;
+}
+.header {
+  text-align: center;
+}
+.thatsme__photoinfo__info {
+  text-align: justify;
+}
+.thatsme__skills li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 10px 0 0;
+}
+.contact {
+  margin: 80px 0;
+  text-align: center;
+}
+.contact__type {
+  background-color: aquamarine;
+}
+.year {
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .thatsme {
+    display: flex;
+  }
+  .thatsme__photoinfo {
+    width: 50%;
+  }
+  .picture--portrait {
+    display: inline;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact__type {
+    width: 300px;
+  }
+  .social {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+  }
+  .social__channel {
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .bio {
+    display: flex;
+  }
+  .bio__item {
+    width: 50%;
+  }
+  .table {
+    vertical-align: top;
+  }
+  .table--th {
+    width: 50px;
+    text-align: left;
+  }
+  .table--td {
+    text-align: justify;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+}
